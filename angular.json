@@ -28,9 +28,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [  "node_modules/bootstrap/dist/js/bootstrap.min.js",
+
+            "node_modules/jquery/dist/jquery.min.js",
+
+            "node_modules/jquery-easing/jquery.easing.min.js",
+
+            "js/sb-admin-2.min.js",
+
+            "vendor/chart.js/Chart.min.js",
+
+            "js/demo/chart-area-demo.js",
+
+            "js/demo/chart-pie-demo.js",
+
+            "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+
+          ]
           },
           "configurations": {
             "production": {
@@ -103,5 +120,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "08f7a760-5305-4a0b-bd01-a50dbb59284c"
   }
 }
