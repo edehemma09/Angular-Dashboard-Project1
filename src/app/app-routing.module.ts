@@ -7,13 +7,11 @@ import { RegisterComponent } from './Components/register/register.component';
 import { ToggleComponent } from './Components/toggle/toggle.component';
 
 const routes: Routes = [
-  {path: '#', component: NavbarComponent},
+  {path: '', redirectTo: "login", pathMatch: 'full'},
   {path: 'static', component: ToggleComponent},
-    {path:'login',component: LoginComponent},
-    {path: 'register', component: RegisterComponent},
-    {path: 'changepassword', component: PasswordComponent}
-
-
+  {path:'login',component: LoginComponent},
+  {path: 'register', component: RegisterComponent},
+  {path: 'changepassword', component: PasswordComponent}
 
 
 ];
